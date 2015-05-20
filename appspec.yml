@@ -32,8 +32,8 @@ hooks:
       timeout: 120
 
     - location: scripts/install_new_relic.sh
-     timeout: 180
-     runas: root
+      timeout: 180
+      runas: root
   #
   # ApplicationStart - you typically use the ApplicationStart
   # deployment lifecycle event to restart services that were stopped
